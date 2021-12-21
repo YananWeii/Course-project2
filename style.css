@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'voltecregular';
+    src: url('fonts/voltec_free_version-webfont.woff2') format('woff2'),
+        url('fonts/voltec_free_version-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'spike_speak_straightregular';
+    src: url('fonts/spike_speak_straight-webfont.woff2') format('woff2'),
+        url('fonts/spike_speak_straight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.menu {
+    margin: 0 auto;
+
+}
+
+
+.home a,
+.cyberpunk11 a,
+.ghostrunner11 a,
+.tarkov11 a {
+    text-decoration: none;
+    color: white;
+    float: left;
+    height: 30px;
+    width: 377px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid white;
+    margin: 1% auto;
+    padding: 0;
+
+}
+
+.home .cn,
+.cyberpunk11 .cn,
+.ghostrunner11 .cn,
+.tarkov11 .cn {
+    display: none;
+    background: pink;
+}
+
+.home:hover .cn,
+.cyberpunk11:hover .cn,
+.ghostrunner11:hover .cn,
+.tarkov11:hover .cn {
+    display: block;
+
+}
+
+.home:hover .en,
+.cyberpunk11:hover .en,
+.ghostrunner11:hover .en,
+.tarkov11:hover .en {
+    display: none;
+}
+
+.button {
+    display: block;
+    width: 25px;
+    height: 30px;
+    border: 1px solid white;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    text-decoration-color: black;
+
+}
+
+
+
+img {
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: white;
+    text-align: center;
+    background-color: black;
+
+}
+
+
+h1 {
+    font-size: 400%;
+    font-family: 'spike_speak_straightregular';
+    font-weight: normal;
+    color: white;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 400%;
+    font-family: 'spike_speak_straightregular';
+    font-weight: normal;
+    color: white;
+    text-align: center;
+
+}
+
+h3 {
+    font-size: 200%;
+    font-family: 'spike_speak_straightregular';
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+.cyberpunk {
+    background-image: url("img/cyberpunk.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    height: 100vh;
+    border: 2px solid white;
+
+
+}
+
+.cyberpunk1 {
+    color: white;
+    padding-top: 0;
+    text-align: center;
+
+}
+
+.cyberpunk-text {
+    padding-top: 420px;
+
+
+}
+
+.logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ghostrunner {
+    background-image: url("img/g.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    height: 100vh;
+    border: 2px solid white;
+}
+
+.ghostrunner1 {
+    color: white;
+    padding-top: 0;
+    text-align: center;
+}
+
+.ghostrunner-text {
+    padding-top: 420px;
+}
+
+.tarkov {
+    background-image: url("img/tarkov.webp");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    height: 100vh;
+    border: 2px solid white;
+}
+
+.tarkov1 {
+    color: white;
+    padding-top: 0;
+    text-align: center;
+}
+
+.tarkov-text {
+    padding-top: 420px;
+}
+
+.text-small {
+    width: 90%;
+    padding-left: 5%;
+}
+
+.kolom {
+    display: flex;
+}
+
+
+
+@media (min-width: 768px) {
+    .text-small {
+        width: 50%;
+        padding-left: 25%;
+    }
+}
